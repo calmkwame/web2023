@@ -1,0 +1,78 @@
+html {
+    font-size: 100%;
+    background-color: #fff;
+    color: black
+}
+
+body {
+    font-family: Times New Roman, Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(100, 21, 21, 0.932);
+    color: #fff;
+    font-size: .5rem;
+    text-transform: uppercase;
+    height: 100px;
+}
+
+header img {
+    height: 80%;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    background-color: rgba(100, 21, 21, 0.932);
+    color: black;
+    border: 1px solid rgb(17, 1, 1);
+}
+
+nav ul li a {
+    background-color: rgb(100, 21, 21, 0.932);
+    color:#fff;
+    text-transform: lowercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: rgb(100, 21, 21, 0.932);
+    color:crimson;
+    font-weight: bold;
+}
+
+nav ul li:nth-child(2) a {
+    background-color: darkgoldenrod;
+    color:#fff;
+    text-decoration: none;
+}
+
+.wrapper {
+    background-color: #fff;
+}
+
+figcaption {
+    text-align:left;
+    font-size: 0.8rem;
+}
+
+figcaption a {
+    background-color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#secondary {
+    background-color: beige;
+    color: black;
+}
+
+footer {
+    background-color: rgba(100, 21, 21, 0.932);
+    color: #fff;
+}
