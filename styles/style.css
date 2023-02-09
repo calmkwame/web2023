@@ -46,12 +46,6 @@ nav ul li a:hover {
     font-weight: bold;
 }
 
-nav ul li:nth-child(2) a {
-    background-color: darkgoldenrod;
-    color:#fff;
-    text-decoration: none;
-}
-
 .wrapper {
     background-color: #fff;
 }
