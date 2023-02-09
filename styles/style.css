@@ -35,7 +35,7 @@ nav ul li {
 nav ul li a {
     background-color: rgb(100, 21, 21, 0.932);
     color:#fff;
-    text-transform: lowercase;
+    text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
 }
