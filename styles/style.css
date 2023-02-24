@@ -106,10 +106,6 @@ figcaption a {
     text-decoration: none;
 }
 
-.image-style {
-    border: 10px solid black;
-    box-shadow: 10px 10px;
-}
 
 #secondary {
     background-color: beige;
