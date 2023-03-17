@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Customer Experience Response</title>
+
+    <style>
+
+    .bold {
+      font-weight: bold;
+    }
+
+    hr {
+      margin: 30px 0 30px 0;
+    }
+
+
+    a {
+      color: blue;
+    }
+
+    a:visited {
+      color: blue;
+    }
+
+    a:hover {
+      color: red;
+    }
+
+    .basicform label {
+      background-color: rgb(235, 138, 138);
+      color: blue;
+      font-weight: bold;
+      font-family: sans-serif;
+      }
+
+    .basicform input {
+      display: flex;
+      font-size: 100%;
+      width: 250px;
+      border: 2px solid blue;
+      background-color: white;
+      color: black;
+      }
+
+      .basicbutton button {
+        border-radius: 5%;
+        box-shadow: 10px 5px 5px red;
+      }
+
+      textarea {
+        background-color: rgb(236, 130, 130);
+        color: black;
+      }
+    </style>
+
+  </head>
+  <body>
+
+    <h1>Customer Interraction Zone</h1>
+
+    <h2>Customer Details</h2>
+
+    <p>Dear valued customer we are pleased that you have chosen us.
+    <span class="bold">Enter</span> your
+    <span class="bold">details</span>
+    in the space provided so that
+    we may <span class="bold">contact</span>
+    you during a time that best suits you. Please
+    <span class="bold">input</span> your information then hit subscribe.</p>
+
+    <p>The customer
+    <span class="bold">response</span> section can be found
+    <span class="bold">below</span> thank you.</p>
+
+    <form action="#" method="post" class="basicform">
+        <label for="name">Enter your name: </label>
+        <input type="text" name="bio" id="name" required>
+        <br>
+        <label for="email">Enter your email address: </label>
+        <input type="text" name="bio" id="email" required>
+        <br>
+        <input type="submit" value="Subscribe!">
+    </form>
+    <hr>
+
+    <h2>Which of our discount packages do you enjoy most?</h2>
+
+    <form action="#" method="get">
+        <label for="myDiscount">What is your favorite discount?</label>
+        <input list="Discount" id="myDiscount" name="myDiscount">
+        <datalist id="Discount">
+          <option value="FxTr Premium"></option>
+          <option value="FxTr Gold"></option>
+          <option value="FxTr Silver"></option>
+          <option value="FxTr Bronze"></option>
+          <option value="Other"></option>
+        </datalist>
+    </form>
+    <hr>
+
+    <h2>What is your favorite feature about Fox Travels?</h2>
+
+    <form action="#" method="get">
+      <fieldset>
+
+        <legend>Choose your favorite vacation feature</legend>
+
+        <input type="radio" id="hotels" name="favfeature" value="Hotels">
+        <label for="hotels">Hotels</label><br>
+
+        <input type="radio" id="flights" name="favfeature" value="Flights">
+        <label for="flights">Flights</label><br>
+
+        <input type="radio" id="rentals" name="favfeature" value="Car Rentals">
+        <label for="rentals">Car Rentals</label>
+
+      </fieldset>
+    </form>
+    <hr>
+
+    <h2>Kindly leave us any feedback not offered in our options in the box below so that we 
+        may keep better serving you as always.
+    </h2>
+
+    <form action="#" method="post">
+      <label for="thoughts">What else would you like us to know?</label>
+      <textarea name="ICT" id="thoughts" rows="5" cols="100">Enter here:</textarea>
+    </form>
+
+  </body>
+</html>
