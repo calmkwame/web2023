@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- this is the <head> section; not to be confused with the <header> section -->
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Fox Travels price services site">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="travel, police, hospital, emergency response teams, meals, emergencies">
+    <meta name="author" content="Kwame Amoa-Bosompem">
+    
+    <title>Fox Travels Services</title>
+
+    <!--Open Graph meta tags-->
+    <meta property="og:title" content="Services - Kwame Amoa-Bosompem">
+    <meta property="og:type" content="webpage">
+    <meta property="og:description" content="Get information on our travel services">
+    <meta property="og:url" content="https://calmkwame.github.io/web2023/Home.html">
+
+    <!--Dublin Core meta tags-->
+    <meta name="DC.title" content="Travel agency - Kwame Amoa-Bosompem">
+    <meta name="DC.creator" content="Kwame Amoa-Bosompem">
+    <meta name="DC.subject" content="restaurants, meals, services, emergencies, ambulance, health">
+    <meta name="DC.description" content="Get to know about our travel services">
+    <meta name="DC.publisher" content="Fox Travels llc.">
+    <meta name="DC.date" content="2023-03-25">
+    
+    <!--External Scripts-->
+    <link rel="stylesheet" href="styles/style.css">
+    <!---Added a JSON LD Script-->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Fox Travels Limited",
+        "email": "foxtravels@gmail.com",
+        "paymentAccepted": "Credit card",
+        "brand": "Travel agency",
+        "areaServed": "Multiple",
+        "location": "International",
+        "logo": "images/fox_drawing.png",
+        "memberOf": "International Travel Agencies",
+        "url": "https://calmkwame.github.io/web2023/"
+      }
+      </script>
+  </head>
+
+  <!-- this is a comment; it's different than how to add CSS comments -->
+
+  <!-- the <body> element comes immediately after the closing </head> -->
+
+  <body>
+
+    <!-- new section for <header>, which contains <h1>, <a>, and <img> elements -->
+    <header>
+       <h1 id="title">Fox Travels</h1>
+      <a href="Services.html">
+        <img src="images/fox_drawing.png" alt="The Fox Travels Limited logo">
+      </a>
+    </header>
+
+    <!-- new section for <nav>, which contains <ul> and <li> elements -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Services.html">Services</a></li>
+        <li><a href="Travelpackages">Travel packages</a></li>
+        <li><a href="Discounts.html">Discounts</a></li>
+      </ul>
+    </nav>
+
+    <!-- the <div> wraps around all elements below except for the <footer> element -->
+    <div class="wrapper">
+
+      <!-- this is the first of two <section> elements on this page -->
+      <section id="primary">
+
+        <!-- this is the first of two <article> elements on this page. Each
+        <article> element is in its own <section>. In practice, this might be
+        redundant; that is, you can either use an <article> or a <section>
+        element and may not need both. -->
+        <article id="main_article">
+
+        <!-- it's good practice to include a <h2> for each <section> or <article> -->
+        <h2>Fox Travels Services</h2>
+
+        <p>At Fox Travels, we provide exclusive services that ensure that</p>
+        <p>should you and your loved ones vacation stateside or internationally,</p>
+        <p>we keep you protected. The safety of our customers of our highest priority</p>
+
+        <h3>Our Services</h3>
+        <p>We offer some of the best exclusive services for you and you family</p>
+        <p>Our cuisine service means that even on the homeland or outside, we ensure</p>
+        <p>that you and your family continue to be catered for by some of the best chefs</p>
+        <p>here at home or abroad. Envision you and your family dining at the best French,</p>
+        <p>Italian or Greek restaurant and we will deliver. When your vacation is provided</p>
+        <p>via us, we ensure that we match you with the best restaurants and kitchens through</p>
+        <p>our world renowned international partnerships which includes flights, car rentals and</p>
+        <p>restaurants at local and international avenues and hotel dining.</p>
+
+        </article>
+
+        <!-- be sure to use alt and title for images -->
+        <figure id="main_fig">
+           <img src="restaurant.jpg" 
+          alt="Image of vacationers at restaurant dining."
+          width="500" height="400"
+          title="Picture of vacationers about to be served a meal">
+          <figcaption>
+          <a href="https://stock.adobe.com/search?k=restaurant&asset_id=265809361">Photo via Adobe stock photos</a>
+          </figcaption>
+        </figure>
+
+      </section>
+
+      <section id="secondary">
+
+        <article id="sub_article">
+
+        <h4>You are protected wherever.</h4>
+
+        <img srcset="images/emergencies.jpg 252w"
+         sizes="(max-width: 150px) 252px,
+                 150px"
+         src="emergencies.jpg"
+         alt="Emergency services logos">
+
+        <p>Vacationing at a foreign country can be fun but also present risks.</p>
+        <p>That is why at Fox Travels, the safety of you and your family is our</p>
+        <p>greatest concern. We strive to make sure that in the event of an unexpected</p>
+        <p>emergency, we have you covered. Our travel information package ensures that you,</p>
+        <p>your family and friends are well protected by giving you access to local police, fire,</p>
+        <p>local EMT and hospital services via our token healthcare purchasable extra. This way,</p>
+        <p>should the unexpected happen in an emergency or health related accident, you and your loved</p>
+        <p>ones can continue smiling and enjoying your vacation as intended. Call or email us.</p>
+
+        </article>
+
+      </section>
+
+    </div> <!-- wrapper -->
+
+       
+    <!-- the <footer> can contain more than an address, but this
+    is a useful place to include it. -->
+    <footer>
+
+      
+        <p><b>Contact us</b><br>
+          (513) 534 3324<br>
+          foxtravels@gmail.com<br></p>
+      
+
+    </footer>
+
+   <!-- be sure to close the </body> and the </html> elements at the end -->
+  </body>
+</html>
